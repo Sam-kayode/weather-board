@@ -706,7 +706,7 @@ export default {
 .forecast {
   border-radius: 15px;
   background-color: rgb(255, 255, 255);
-                transition: 0.35s ease-in
+              transition: 0.35s ease-out;
 
 }
 $color-sun: #edc951;
@@ -1007,7 +1007,7 @@ a {
   .forecast{
     width:100px;
     font-size: 10px;
-                  transition: 0.35s ease-in
+              transition: 0.35s ease-out;
 
   }
 }
@@ -1016,7 +1016,8 @@ a {
 .dark{
   .forecast{
     background-color:#162736;
-              transition: 0.35s ease-in;
+                           transition: 0.35s ease-out;
+
 
 ;
   }

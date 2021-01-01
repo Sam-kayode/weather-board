@@ -93,11 +93,12 @@ html {
   background-color: white;
   border-bottom: 1px solid #e2dfdf;
   font-family: "Nunito Sans", sans-serif;
-                transition: 0.35s ease-in
-
+  transition: 0.35s ease-out;
 }
 .harmburger {
   background-color: #ffffff;
+  transition: 0.35s ease-out;
+
   border: none;
   cursor: pointer;
   padding: 0;
@@ -143,9 +144,10 @@ html {
 button {
   outline: none !important;
 }
-svg {
+#nav-bar svg {
   height: 50px;
   width: 50px;
+  transition: 0.35s ease-out;
 }
 /* logo image */
 .logo {
@@ -235,8 +237,7 @@ margin-top: 50px;
   transition: 0.3s ease-in-out;
   font-family: "Nunito Sans", sans-serif;
   border-right: 1px solid rgb(216, 214, 214);
-                transition: 0.35s ease-in
-
+  transition: 0.35s ease-in;
 }
 .side-nav ul {
   margin: 0;
@@ -282,8 +283,7 @@ margin-top: 50px;
 .dark {
   .navlink a {
     color: rgba(255, 255, 255, 0.527);
-              transition: 0.35s ease-in;
-
+    transition: 0.35s ease-out;
   }
   .navlink::before {
     background-color: rgba(255, 255, 255, 0.527);
@@ -292,16 +292,14 @@ margin-top: 50px;
     background-color: rgb(1, 19, 34);
     border-bottom: 1px solid rgb(30, 30, 32);
     color: rgba(255, 255, 255, 0.527);
-              transition: 0.35s ease-in;
+    transition: 0.35s ease-out;
 
     svg {
       background-color: rgb(1, 19, 34);
-              transition: 0.35s ease-in;
+      transition: 0.35s ease-out;
 
       .line {
         stroke: rgba(255, 255, 255, 0.7);
-              transition: 0.35s ease-in;
-
       }
     }
   }
@@ -309,11 +307,11 @@ margin-top: 50px;
     background-color: rgb(10, 29, 44);
     color: rgba(255, 255, 255, 0.527);
     border-right: 1px solid rgb(46, 60, 65);
-              transition: 0.35s ease-in;
+    transition: 0.35s ease-out;
 
     li a {
       color: rgba(255, 255, 255, 0.527);
-              transition: 0.35s ease-in;
+      transition: 0.35s ease-out;
     }
   }
 }

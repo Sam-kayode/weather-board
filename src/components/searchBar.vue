@@ -84,11 +84,11 @@ form .fa:hover {
 .dark {
   .search-bar {
     border: 4px solid rgba(255, 255, 255, 0.427);
-              transition: 0.35s ease-in;
+              transition: 0.35s ease-out;
     ;
     input {
       background-color: rgba(255, 255, 255, 0.8);
-              transition: 0.35s ease-in;
+              transition: 0.35s ease-out;
       ;
     }
   }

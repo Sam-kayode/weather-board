@@ -40,14 +40,14 @@ else{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-              transition: 0.35s ease-in
+              transition: 0.35s ease-out;
 
 }
 
 .dark {
   background: #162736;
   color:rgba(255, 255, 255, 0.6);
-              transition: 0.35s ease-in;
+              transition: 0.35s ease-out;
 
 }
 

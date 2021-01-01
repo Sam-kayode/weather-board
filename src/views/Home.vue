@@ -2,7 +2,7 @@
   <div>
     <b-container fluid class="board">
       <b-row>
-        <b-col class="current pt-3" md="4">
+        <b-col class="current pt-5 pt-md-1" md="4">
           <search-bar class="mt-5"></search-bar>
           <weather-icon class="current-icon"></weather-icon>
           <div class="temperature text-center">
@@ -162,7 +162,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   grid-gap: 5px;
-                transition: 0.35s ease-in
+              transition: 0.35s ease-out;
 
 }
 
@@ -172,7 +172,7 @@ export default {
   padding: 15px 10px;
   margin: 10px auto;
   border-radius: 20px;
-                transition: 0.35s ease-in
+              transition: 0.35s ease-out;
 
 }
 
@@ -187,7 +187,7 @@ export default {
       left: 0;
       z-index: 2;
       background: #162736;
-              transition: 0.35s ease-in
+              transition: 0.35s ease-out;
 
     }
   }
@@ -197,7 +197,7 @@ export default {
     z-index: 2;
     margin-top:55px;
     min-height:100vh;
-              transition: 0.35s ease-in
+              transition: 0.35s ease-out;
 
   }
 
@@ -206,7 +206,7 @@ export default {
     position: absolute;
     right: 0;
     min-height: 100vh;
-                  transition: 0.35s ease-in
+              transition: 0.35s ease-out;
 
   }
 }
@@ -225,11 +225,11 @@ export default {
 
     .search-bar {
       border: 4px solid rgba(255, 255, 255, 0.427) !important;
-              transition: 0.35s ease-in;
+              transition: 0.35s ease-out;
 
       input {
         background-color: rgba(255, 255, 255, 0.8) !important;
-              transition: 0.35s ease-in;
+              transition: 0.35s ease-out;
 
       }
     }
@@ -237,11 +237,11 @@ export default {
 
   .highlight {
     background-color: rgb(10, 29, 44);
-              transition: 0.35s ease-in;
+              transition: 0.35s ease-out;
 
     .stat {
       background: #162736;
-                    transition: 0.35s ease-in
+              transition: 0.35s ease-out;
 
     }
   }
