@@ -142,7 +142,7 @@ export default {
 }
 
 .w-speed {
-  font-size: 45px;
+              font-size: 40px;
 }
 
 .unt {
@@ -160,7 +160,7 @@ export default {
 .t-stats {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 5px;
               transition: 0.35s ease-out;
 
@@ -168,11 +168,12 @@ export default {
 
 .stat {
   background-color: white;
-  width: 160px;
+  width: 150px;
   padding: 15px 10px;
-  margin: 10px auto;
+  margin: 5px auto;
   border-radius: 20px;
               transition: 0.35s ease-out;
+              font-size: 17px;
 
 }
 
