@@ -15,7 +15,7 @@ import toggle from "@/components/toggle.vue"
 export default {
   data() {
     return {
-      mode: "dark",
+      mode: "light",
     };
   },
   components: {
